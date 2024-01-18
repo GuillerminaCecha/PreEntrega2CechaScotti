@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.301);
+    width: 100%; 
+    height: 5opx;
+    font-size: 40px;
+  }
+
+   h3 {
+    background-color: #ffd952 ;
+    font-size: 25px ;
+    text-align: center;
+   }
+   
+body {
+    margin-top: 50px;
+}       
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    }
+    
+main {
+      margin-top: 20px;
+      padding: 10px;
+  }
+
+.logo span {
+    font-size: 40px;
+    font-weight: 600;
+   }
+   
+.logo {
+       width: 8%;
+       height: 46px;
+   }
+   
+.nav-bar a {
+       text-decoration: none;
+   }
+    
+nav.navegacion {
+       display: inline-block;
+       width: 100%;
+       height: 55px;
+       background-color:#ffd952;
+       top: 0;
+       display: flex; 
+       align-items: center;
+       justify-content: space-between;
+       position: fixed;
+   } 
+   
+nav ul li {
+  color: black;
+       display: inline;
+          &:hover {
+        text-decoration: underline;
+      }
+     }
+     
+.navegacion__nav {
+       display: flex;
+       justify-content: space-around;
+       font-size: 24px;
+       list-style: none;
+       width: 40rem;
+       }
+   
+.navegacion a  {
+      margin-left: 15px;
+      text-decoration: none;
+     }
+   
+.piedepagina {
+  background-color: rgb(148, 147, 147);
+}
+ 
+.piedepagina a {
+       text-decoration: none;
+       font-size: 22px;
+       color: black;
+       justify-content: center;
+       margin-left: 40px;
+       margin-top: 50px;
+       width: 100%;
+       height: 55px;
+     }
+   
+.container {
+       width: 100%;
+       margin: 0 auto;
+   }
+   
+.navegacion .logo__container {
+   padding: 0 5px;
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   width: 40%; 
+   font-size: 27px;
+   }
+  
+  .img-normalizada{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.contenedor-padre {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  background-image: url("../img/fondodeabejas.jpg");
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  gap: 3px;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.contenedor-hijo {
+  height: 290px;
+  width: 320px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 15px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+.img-tienda{
+	width: 240px;
+	height: 240px;
+}
+
+.precio_tienda {
+  font-size: 20px;
+  background-color: #fcebad;
+}
